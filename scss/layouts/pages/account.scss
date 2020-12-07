@@ -1,0 +1,96 @@
+.my-account {
+    h6 {
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .woocommerce {
+        #customer_login {
+            padding-bottom: 58px;
+            form {
+                label {
+                    color: $grey-color;
+                }
+                .form-row {
+                    input[type=checkbox] {
+                        & + span {
+                            padding-left: 18px;
+                            color: $grey-primary;
+                            &:before {
+                                width: 11px;
+                                height: 11px;
+                                top: 4px;
+                            }
+                            &:after {
+                                left: 2px;
+                                top: 6px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .form-button {
+            padding-top: 8px;
+        }
+        .lost_reset_password {
+            label {
+                color: $grey-color;
+            }
+        }
+    }
+}
+.spendora-form-login {
+    padding-right: 10px;
+    .button {
+        margin-right: 73px;
+    }
+    .lost_password {
+        a {
+            color: #ff6666;
+        }
+    }
+}
+.spendora-form-signup {
+    padding-left: 10px;
+}
+.spendora-login-recommend {
+    p {
+        font-size: 17px;
+    }
+}
+.socials-logins {
+    @extend display-flex;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    .button-social-login {
+        width: 200px;
+        height: 52px;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Montserrat SemiBold';
+        margin-right: 25px;
+        &:last-child {
+            margin-right: 0px;
+        }
+        i {
+            padding-left: 10px;
+        }
+    }
+    .button-social-login-facebook {
+        background: #4e73a8;
+    }
+    .button-social-login-google {
+        background: #d54934;
+    }
+    .button-social-login-instagram {
+        background: #9b4f9a;
+    }
+    .button-social-login-twitter {
+        background: #5da9dd;
+    }
+}
+.lost_reset_password {
+    .desc {
+        margin-bottom: 15px;
+    }
+}

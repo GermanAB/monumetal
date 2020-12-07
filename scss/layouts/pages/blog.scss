@@ -1,0 +1,195 @@
+.blog-sidebar--right {
+    .blog-list {
+        padding-right: 10px;
+    }
+}
+.blog-sidebar--left {
+    .blog-list {
+        padding-left: 10px;
+    }
+}
+.blog-page {
+    .item {
+        @extend display-flex;
+        @include flex-direction(column);
+        figure {
+            position: relative;
+            @include hover-big-img();
+            .overlay {
+                position: absolute;
+                content: '';
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.5);
+                z-index: 9;
+                transform: scaleX(0);
+                transition: all .5s ease;
+            }
+            .bmd-modalButton {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                @include transform(translate(-50%, -50%));
+                z-index: 99;
+                opacity: 0;
+                .au-video-button  {
+                    i {
+                        width: 56px;
+                        height: 56px;
+                        font-size: 20px;
+                    }
+                }
+            }
+            &:hover {
+                .overlay {
+                    transform: scaleX(1);
+                }
+                .bmd-modalButton {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+.blog-list {
+    .item {
+        margin-bottom: 70px;
+        .title {
+            font-size: 30px;
+            padding-top: 36px;
+            padding-bottom: 9px;
+        }
+        .desc {
+            padding-top: 20px;
+            padding-bottom: 42px;
+        }
+        .readmore-btn {
+            margin-bottom: 70px;
+        }
+    }
+}
+.qoute-post {
+    .postformat-box {
+        padding: 40px 30px 10px 55px;
+    }
+    .quote-author {
+        margin-top: -10px;
+    }
+}
+.link-post {
+    .postformat-box {
+        padding: 10px 30px 38px 55px;
+        .link-post-info {
+            margin-bottom: -10px;
+        }
+    }
+}
+.postformat-box {
+    position: relative;
+    background: #fff;
+    .line2, .line4 {
+        height: 100%;
+        width: 7px;
+    }
+    &:after, &:before {
+        position: absolute;
+        content: '';
+        background-color: #f9f9f9;
+        background-image: url('../images/bg-pattern-1.png');
+        background-repeat: repeat;
+        background-position: center center;
+        opacity: 0.15;
+        z-index: 9;
+        width: 100%;
+        height: 7px;
+        left: 0;
+    }
+    &:after {
+        bottom: 0;
+    }
+    &:before {
+        top: 0;
+    }
+    .postformat-box-content {
+        font-size: 30px;
+        font-family: 'Montserrat SemiBold';
+        color: $black-title;
+        line-height: 1.33;
+    }
+    .post-icon {
+        
+        color: #ccc;
+        i {
+            font-size: 70px;
+        }
+    }
+
+}
+.blog-masonry {
+    .projects-masonry {
+        margin-bottom: 0px;
+        .grid-sizer, .item {
+            width: 33.33%;
+        }
+        .item {
+            margin-bottom: 50px;
+            .info {
+                padding-top: 26px;
+                .title {
+                    padding-bottom: 11px;
+                }
+            }
+        }
+    }
+    .quote-top {
+        .postformat-box {
+            @include order(1);
+            margin-bottom: 50px;
+        }
+        figure {
+            @include order(2);
+        }
+        .info {
+            @include order(3);
+        }
+    }
+    .quote-bottom {
+        .postformat-box {
+            margin-top: 44px;
+        }
+    }
+    .item {
+        .postformat-box {
+            .postformat-box-content {
+                font-size: 22px;
+                line-height: 1.54;
+            }
+            .post-icon  {
+                i {
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+    .qoute-post {
+        .postformat-box {
+            padding: 30px 25px 22px 35px;
+        }
+        .quote-author {
+            margin-top: -5px;
+        }
+
+    }
+    .link-post {
+        .postformat-box {
+            padding: 20px 25px 30px 40px;
+        }
+        .postformat-box  {
+            .link-post-info {
+                margin-bottom: -4px;
+            }
+        }
+    }
+}

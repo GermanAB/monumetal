@@ -1,0 +1,23 @@
+.breadcrumb {
+    background-color: transparent;
+    @include border-radius(0px);
+    padding: 0px;
+    position: relative;
+    z-index: 99;
+    margin-bottom: 0px;
+    // @include justify-content(center);
+    .breadcrumb-item {
+        a {
+            color: $grey-color;
+            text-transform: uppercase;
+        }
+    }
+    &:before {
+        content: "";
+    }
+    .active {
+        color: $grey-color;
+        text-transform: uppercase;
+        background: transparent;
+    }
+}

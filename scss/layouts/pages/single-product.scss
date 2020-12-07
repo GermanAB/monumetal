@@ -1,0 +1,250 @@
+.single-product {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    .product {
+        .product-images-wrapper {
+            padding-right: 15px;
+            .product-gallery {
+                margin-bottom: 20px;
+                .product-gallery-wrapper {
+                    .woocommerce-product-gallery__image {
+                        background: #f2f2f2;
+                        padding: 40px;
+                    }
+                }
+            }
+            .woocommerce-product-slider {
+                .slick-list {
+                    padding: 0px !important;
+                    margin: 0 -11px;
+                }
+                .gallery-image {
+                    margin: 0 11px;
+                    background: #f2f2f2;
+                }
+            }
+        }
+        .product-summary {
+            padding-left: 15px;
+            .summary {
+                margin-top: -12px;
+                .product_title {
+                    font-size: 35px;
+                    font-family: 'Montserrat SemiBold';
+                    text-transform: none;
+                    padding-bottom: 4px;
+                }
+                .woocommerce-product-rating {
+                    padding-bottom: 30px;
+                    @extend display-flex;
+                    font-size: 17px;
+                    .woocommerce-review-link {
+                        color: $grey-color;
+                        margin-left: 13px;
+                    }
+                    .star-rating {
+                        i {
+                            color: #ffcc33;
+                            padding-right: 2px;
+                        }
+                    }
+                }
+                .price {
+                    padding-bottom: 16px;
+                    .woocommerce-Price-amount {
+                        font-size: 30px;
+                    }
+                }
+                .woocommerce-product-details__short-description {
+                    padding-top: 23px;
+                    border-top: 1px solid rgb(242, 242, 242);
+                }
+                form.cart {
+                    @extend display-flex;
+                    padding-top: 35px;
+                    padding-bottom: 45px;
+                    .quantity {
+                        position: relative;
+                        margin-right: 60px;
+                        .modify-qty {
+                            position: absolute;
+                            left: 100%;
+                            // @include transform(translateY(-50%));
+                            @extend display-flex;
+                            @include justify-content(center);
+                            @include align-items(center);
+                            height: 50%;
+                            z-index: 99;
+                            width: 40px;
+                            cursor: pointer;
+                            border: 1px solid $grey-primary;
+                            border-left: none;
+                        }
+                        .minus {
+                            bottom: 0;
+                            
+                        }
+                        .plus {
+                            top: 0;
+                            border-bottom: none;
+                        }
+                        .qty {
+                            text-align: center;
+                            border: 1px solid $grey-primary;
+                            padding: 6px 3px;
+                            -moz-appearance: textfield !important;
+                            appearance: none !important;
+                            -webkit-appearance: none !important;
+                            position: relative;
+                            z-index: 9;
+                            width: 47px;
+                            height: 54px;
+                        }
+                    }
+                    .single_add_to_cart_button {
+                        cursor: pointer;
+                        background: transparent;
+                        padding: 6px 30px;
+                        &:hover {
+                            background: $yellow-primary;
+                            color: #fff;
+                        }
+                    }
+                }
+                .meta-item {
+                    margin-bottom: 7px;
+                    display: block;
+                    span, a {
+                        color: $grey-primary;
+                    }
+                    .meta-name {
+                        padding-right: 4px;
+                        color: $black-title;
+                    }
+                }
+                .product-share {
+                    span {
+                        color: $black-title;
+                    }
+                }
+            }
+        }
+        .spendora-product-tabs {
+            padding-top: 75px;
+            padding-bottom: 110px;
+            .tabs  {
+                @extend display-flex;
+                border-bottom: 1px solid #e5e5e5;
+                padding: 0px;
+                margin: 0;
+                li {
+                    a {
+                        font-size: 17px;
+                        font-family: 'Montserrat Medium';
+                        color: $grey-color;
+                        padding: 6px 0px;
+                        margin-right: 25px;
+                        display: inline-block;
+                    }
+                    .active {
+                        color: $black-title;
+                    }
+                }
+            }
+            .tab-content {
+
+                padding-top: 23px;
+            }
+            .shop_attributes {
+                border: none;
+                tr {
+                    margin-bottom: 5px;
+                    display: block;
+                    &:last-child {
+                        margin-bottom: 0px;
+                    }
+                    th, td {
+                        border: none;
+                    }
+                    th {
+                        font-weight: 400;
+                        color: $black-title;
+                        width: 110px;
+                    }
+                    td {
+                        font-style: normal;
+                        color: $grey-primary;
+                    }
+                }
+            }
+            .single-product-panel {
+                .woocommerce-Reviews {
+                    h6 {
+                        margin-bottom: 27px;
+                    }
+                    #comments {
+                        .comment-item {
+                            .star-rating {
+                                i {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                        .comment-list {
+                            margin-bottom: 26px;
+                        }
+                    }
+                    #review_form_wrapper {
+                        #review_form {
+                            form {
+                                .comment-notes {
+                                    span {
+                                        display: block;
+                                        margin-bottom: 4px;
+                                    }
+                                    .required {
+                                        display: inline-block;
+                                        margin-bottom: 0px;
+                                    }
+                                }
+                                .comment-form-rating {
+                                    margin-bottom: 8px;
+                                    label {
+                                        position: relative;
+                                        top: 0;
+                                        margin-bottom: 5px;
+                                    }
+                                    .star {
+                                        span {
+                                            a {
+                                                color: #ffcc33;
+                                                font-size: 14px;
+                                                padding-right: 2px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .related {
+        padding-top: 55px;
+        margin-bottom: -5px;
+    }
+}
+.star-rating {
+    i {
+        color: #ffcc33;
+        font-size: 17px;
+        padding-right: 2px;
+    }
+}
+.related-product-title {
+    font-size: 25px;
+    margin-bottom: 34px;
+}
+  

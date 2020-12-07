@@ -1,0 +1,93 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Extend
+2. Global
+3. Arrows
+4. Breadcrumb 
+5. Dots 
+6. Fonts
+7. Pagination
+8. Footer
+9. Header
+10. Sidebar
+11. 404 Error
+12. About me Page 
+13. About us Page
+14. Account Page
+15. Blog Page
+16. Contact Page
+17. Cart Page
+18. Checkout Page
+19. Coming Soon Page
+20. Front Page
+21. Gallery Page
+22. Our Team Page
+23. Portfolio Page
+24. Single Product Page
+25. Shop Page
+26. Single Post Page
+27. Responsive
+-------------------------------------------------------------------*/
+
+/* 1. Extend ------------------------------------------*/
+@import 'common/extend.scss';
+@import 'common/minxi.scss';
+@import 'common/variables.scss';
+/* 2. Global ------------------------------------------*/
+@import 'common/global.scss';
+
+/* 3. Arrows ------------------------------------------*/
+@import 'components/arrows.scss';
+/* 4. Breadcrumb ------------------------------------------*/
+@import 'components/breadcrumb.scss';
+/* 5. Dots ------------------------------------------*/
+@import 'components/dots.scss';
+/* 6. Fonts ------------------------------------------*/
+@import 'components/fonts.scss';
+/* 7. Pagination------------------------------------------*/
+@import 'components/pagination.scss';
+
+/* 8. Footer ------------------------------------------*/
+@import 'layouts/footer.scss';
+/* 9. Header ------------------------------------------*/
+@import 'layouts/header.scss';
+/* 10. Sidebar ------------------------------------------*/
+@import 'layouts/sidebar.scss';
+
+
+/* 11. 404 Error ------------------------------------------*/
+@import 'layouts/pages/404.scss';
+/* 12. About me Page ------------------------------------------*/
+@import 'layouts/pages/aboutme.scss';
+/* 13. About us Page ------------------------------------------*/
+@import 'layouts/pages/aboutus.scss';
+/* 14. Account Page ------------------------------------------*/
+@import 'layouts/pages/account.scss';
+/* 15. Blog Page ------------------------------------------*/
+@import 'layouts/pages/blog.scss';
+/* 16. Contact Page ------------------------------------------*/
+@import 'layouts/pages/contact.scss';
+/* 17. Cart Page ------------------------------------------*/
+@import 'layouts/pages/cart.scss';
+/* 18. Checkout Page ------------------------------------------*/
+@import 'layouts/pages/checkout.scss';
+/* 19. Coming Soon Page ------------------------------------------*/
+@import 'layouts/pages/coming-soon.scss';
+/* 20. Front Page ------------------------------------------*/
+@import 'layouts/pages/front-page.scss';
+/* 21. Gallery Page ------------------------------------------*/
+@import 'layouts/pages/gallery.scss';
+/* 22. Our Team Page ------------------------------------------*/
+@import 'layouts/pages/ourteam.scss';
+/* 23. Portfolio Page ------------------------------------------*/
+@import 'layouts/pages/portfolio.scss';
+/* 24. Single Product Page ------------------------------------------*/
+@import 'layouts/pages/single-product.scss';
+/* 25. Shop Page ------------------------------------------*/
+@import 'layouts/pages/shop.scss';
+/* 26. Single Post Page ------------------------------------------*/
+@import 'layouts/pages/single.scss';
+
+/* 27. Responsive ------------------------------------------*/
+@import 'layouts/responsive.scss';

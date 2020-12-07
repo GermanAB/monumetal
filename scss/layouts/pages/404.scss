@@ -1,0 +1,38 @@
+.error404 {
+    height: 100%;
+    main {
+        height: 100%;
+    }
+    .error-page, .container, .error-page-content {
+        height: 100%;
+    }
+    .error-page-content {
+        @include flex-direction(column);
+        color: #fff;
+        .error-page-title {
+            color: #fff;
+            font-size: 300px;
+            font-family: 'Montserrat Bold';
+            .black-color {
+                color: $black-title;
+            }
+            span {
+                text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
+                -moz-transform: matrix( 15.0677672512253,0,0,15.0677672512253,0,0);
+                -webkit-transform: matrix( 15.0677672512253,0,0,15.0677672512253,0,0);
+                -ms-transform: matrix( 15.0677672512253,0,0,15.0677672512253,0,0);
+            }
+        }
+        .not-found {
+            font-size: 25px;
+            font-family: 'Montserrat SemiBold';
+            margin-top: -17px;
+        }
+        .oop {
+            font-size: 18px;
+        }
+    }
+    .nav-icon {
+        color: $grey-primary;
+    }
+}

@@ -1,0 +1,29 @@
+.contact-map {
+    .js-map-holder {
+        height: 550px;
+    }
+}
+.contact-us {
+    h2 {
+        margin-bottom: 12px;
+    }
+    .desc {
+        padding-bottom: 40px;
+    }
+    ul {
+        li {
+            margin-bottom: 13px;
+            &:last-child {
+                margin-bottom: 0px;
+            }
+            .name {
+                font-family: 'Montserrat SemiBold';
+            }
+        }
+    }
+}
+.contact-form {
+    .common-form textarea {
+        height: 120px;
+    }
+}
