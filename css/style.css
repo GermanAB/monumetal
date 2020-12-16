@@ -3215,8 +3215,10 @@ ul.page-numbers {
   .slideshow-btn:hover:after {
     background: #ffffff;
     border: 1px solid rgb(0, 0, 0); 
-    color: black;
-  }
+    color: #0056b3;
+  } 
+
+
 
 .wrap-scroll-slider1 {
   position: absolute;
