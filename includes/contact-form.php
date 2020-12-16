@@ -66,11 +66,11 @@ if( isset($_POST['name']) && isset($_POST['email']) && isset($_POST['comment']) 
 
     if (MAIL_HOST != null) {
 
-        $to = MAIL_HOST;
+        $to = 'xacise9183@yektara.com';
 
     } else {
 
-        $to = "trieuau@gmail.com";
+        $to = "gajoje7449@sdysofa.com";
 
     }
 
