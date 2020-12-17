@@ -488,7 +488,7 @@ body {
     -o-animation: sk-bounce 2.0s infinite ease-in-out;
     animation: sk-bounce 2.0s infinite ease-in-out; }
   .loading .double-bounce2 {
-    background-color: #ffc000;
+    background-color: #000000;
     -webkit-animation-delay: -1.0s;
     -moz-animation-delay: -1.0s;
     -o-animation-delay: -1.0s;
@@ -3533,9 +3533,9 @@ ul.page-numbers {
     -ms-transition: all 0.3s ease 0s; }
   .filter-projects li .is-checked {
     color: #fff;
-    background: #ffc000; }
+    background: #000000; }
   .filter-projects li:hover span {
-    background: #ffc000;
+    background: #000000;
     color: #fff; }
 
 .project-items .item figure {
@@ -3546,7 +3546,7 @@ ul.page-numbers {
     left: 30px;
     width: calc(100% - 60px);
     background: #fff;
-    border-left: 4px solid #ffc000;
+    border-left: 4px solid #000000;
     padding: 22px 30px;
     opacity: 0;
     -webkit-backface-visibility: hidden;
