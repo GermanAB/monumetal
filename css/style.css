@@ -1148,6 +1148,13 @@ ul.page-numbers {
   .footer-bottom .copyright p{
     color: white !important;
   }
+  .footer-bottom .copyright a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .footer-bottom .copyright a:hover{
+    color: #ffc000;
+  }
 
 .footer-middle {
   padding-bottom: 32px;
@@ -3399,7 +3406,8 @@ ul.page-numbers {
   .year-experience .year-experience-number {
     font-size: 250px;
     font-family: 'Montserrat ExtraBold';
-    background: url("../images/background-number.jpg") no-repeat;
+   
+    background-color: #000;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 185px;
@@ -3461,7 +3469,7 @@ ul.page-numbers {
     opacity: 0.2;
     z-index: -1; }
   .au-progress .au-progress-bar {
-    background: #ffc000;
+    background: #000000;
     height: 7px;
     width: 0;
     transition: 1s all;
@@ -3479,7 +3487,7 @@ ul.page-numbers {
       height: 24px;
       right: 0;
       bottom: 100%;
-      background: #ffc000; }
+      background: #000000; }
     .au-progress .au-progress-bar p, .au-progress .au-progress-bar span {
       position: absolute;
       top: -32px;
@@ -4408,7 +4416,7 @@ ul.page-numbers {
       -webkit-transform: translateX(-50%);
       -o-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
-      background: #ffc000; }
+      background: #000000; }
   .statistics-content .item .title {
     font-size: 18px;
     padding-top: 20px; }
