@@ -488,7 +488,7 @@ body {
     -o-animation: sk-bounce 2.0s infinite ease-in-out;
     animation: sk-bounce 2.0s infinite ease-in-out; }
   .loading .double-bounce2 {
-    background-color: #000000;
+    background-color: #333;
     -webkit-animation-delay: -1.0s;
     -moz-animation-delay: -1.0s;
     -o-animation-delay: -1.0s;
@@ -3406,8 +3406,8 @@ ul.page-numbers {
   .year-experience .year-experience-number {
     font-size: 250px;
     font-family: 'Montserrat ExtraBold';
-   
-    background-color: #000;
+    background-image: url("../images/bg-pattern-1.png");
+    
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 185px;
@@ -3469,7 +3469,7 @@ ul.page-numbers {
     opacity: 0.2;
     z-index: -1; }
   .au-progress .au-progress-bar {
-    background: #000000;
+    background: #333;
     height: 7px;
     width: 0;
     transition: 1s all;
@@ -3487,7 +3487,7 @@ ul.page-numbers {
       height: 24px;
       right: 0;
       bottom: 100%;
-      background: #000000; }
+      background: #333; }
     .au-progress .au-progress-bar p, .au-progress .au-progress-bar span {
       position: absolute;
       top: -32px;
@@ -3541,9 +3541,9 @@ ul.page-numbers {
     -ms-transition: all 0.3s ease 0s; }
   .filter-projects li .is-checked {
     color: #fff;
-    background: #000000; }
+    background: #333; }
   .filter-projects li:hover span {
-    background: #000000;
+    background: #333;
     color: #fff; }
 
 .project-items .item figure {
@@ -3554,7 +3554,7 @@ ul.page-numbers {
     left: 30px;
     width: calc(100% - 60px);
     background: #fff;
-    border-left: 4px solid #000000;
+    border-left: 4px solid #333;
     padding: 22px 30px;
     opacity: 0;
     -webkit-backface-visibility: hidden;
@@ -4416,7 +4416,7 @@ ul.page-numbers {
       -webkit-transform: translateX(-50%);
       -o-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
-      background: #000000; }
+      background: #333; }
   .statistics-content .item .title {
     font-size: 18px;
     padding-top: 20px; }
