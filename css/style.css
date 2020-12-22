@@ -1219,9 +1219,9 @@ ul.page-numbers {
         .menu ul li a:hover:after {
           max-width: 100%; }
     .menu ul li:last-child {
-      padding-right: 0px; }
+      padding-right: 8px; }
       .menu ul li:last-child a {
-        padding-right: 0px; }
+        padding-right: 8px; }
     .menu ul li .sub-menu {
       position: absolute;
       z-index: 1000;
@@ -1491,7 +1491,7 @@ ul.page-numbers {
     display: block;
     list-style-type: none;
     list-style-type: none;
-    background: #ffc000; }
+    background: #333333; }
     .au-nav-mobile ul li {
       position: relative;
       padding: 0; }
@@ -4309,7 +4309,7 @@ ul.page-numbers {
 
 .home-aboutus-content .item {
   text-align: center;
-  background: #595959;
+  background: #333333;
   color: #fff;
   padding: 40px 40px 32px;
   position: relative;
