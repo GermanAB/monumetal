@@ -6592,7 +6592,8 @@ ul.page-numbers {
     margin-bottom: 20px; }
 
   .filter-projects li {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    text-align: center; }
 
     .breadcrumb-item{
       text-align: center;
@@ -6623,8 +6624,7 @@ ul.page-numbers {
     width: 100%; }
 
   .filter-projects li span {
-    padding: 5px 0px; 
-    margin-left: 33%;}
+    padding: 5px 0px; }
 
   .filter-projects li .is-checked {
     padding: 5px 16px; } }
