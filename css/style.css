@@ -6591,6 +6591,9 @@ ul.page-numbers {
     display: block;
     margin-bottom: 20px; }
 
+  .featured-proyect{
+    margin-bottom: 40px !important; }
+
   .p-t-150{
     padding-top: 70px;
   }
