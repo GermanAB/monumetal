@@ -6598,6 +6598,10 @@ ul.page-numbers {
     padding-top: 70px;
   }
 
+  .slideshow-btn{
+    top: 20px;
+  }
+
   .filter-projects li {
     margin-bottom: 20px;
     text-align: center; }
