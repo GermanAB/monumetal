@@ -6651,3 +6651,35 @@ ul.page-numbers {
     padding-left: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
+    .arreglo{
+      color: white;
+    }
+
+  @media screen and (max-width: 400px){
+    .arreglo{
+      background-color: rgba(255, 255, 255, 0.5);
+      color: #333333;
+    }
+  }
+  .esconderboton{
+    display: block;
+  }
+
+  .fondoblanco{
+    position: fixed;
+    background-color: white;
+    width: inherit;
+    height: 80px;
+  }
+
+  @media screen and (max-width: 400px){
+    .desapareceenresponsivo{
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 400px){
+    .botonabajoresponsivo{
+      margin-top: 20px;
+    }
+  }

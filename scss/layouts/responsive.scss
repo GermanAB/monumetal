@@ -663,4 +663,8 @@
 }
 
 //end 400px
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 400px) {
+    .slideshow-btn{
+        display: none;
+      }
+}
