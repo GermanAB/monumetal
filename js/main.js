@@ -411,7 +411,7 @@
                     }
                 });
             }
-        }, {offset: 'bottom-in-view'});
+        }, {offset: '50%'});
     }
 
     /*Couter up*/
