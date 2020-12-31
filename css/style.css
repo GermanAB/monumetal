@@ -625,7 +625,7 @@ body {
       background: #333333; }
 
 #fullpage .common-form .form-submit:hover .submit {
-  background: #ffc000; }
+  background: #333333; }
 
 .single-title {
   font-size: 30px;
@@ -5864,7 +5864,7 @@ ul.page-numbers {
     left: 0;
     transition: transform 0.15s, 0.15s border-radius 0.15s;
     opacity: 0;
-    background: #ffc000;
+    background: #333333;
     transform: scale(0.1, 0.1);
     z-index: -1;
     border-radius: 50%; }
@@ -5877,7 +5877,7 @@ ul.page-numbers {
     .common-form .form-submit:hover .submit {
       color: #fff; }
     .common-form .form-submit:hover:after {
-      background: #ffc000;
+      background: #333333;
       border-left: 1px solid #666; }
 
 .leave-comment .comments-title {
@@ -6597,9 +6597,12 @@ ul.page-numbers {
   .p-t-150{
     padding-top: 70px;
   }
+  .contact-form{
+    margin-top: 70px;
+  }
 
   .slideshow-btn{
-    top: 20px;
+    top: 130px;
   }
 
   .filter-projects li {
@@ -6655,7 +6658,7 @@ ul.page-numbers {
       color: white;
     }
 
-  @media screen and (max-width: 400px){
+  @media screen and (max-width: 480px){
     .arreglo{
       background-color: rgba(255, 255, 255, 0.5);
       color: #333333;
@@ -6672,13 +6675,13 @@ ul.page-numbers {
     height: 80px;
   }
 
-  @media screen and (max-width: 400px){
+  @media screen and (max-width: 480px){
     .desapareceenresponsivo{
       display: none;
     }
   }
 
-  @media screen and (max-width: 400px){
+  @media screen and (max-width: 480px){
     .botonabajoresponsivo{
       margin-top: 20px;
     }

@@ -24,7 +24,7 @@ define("MAIL_TITLE", $option->MAIL_TITLE);
 
 if (isset($_POST['name'])) {
     $name = $_POST['name'];
-    $all_message = "<h3>Name: " . $name . "</h3>";
+    $all_message = "<h3>Name: </h3><p>" . $name . "</p>";
 }
 
 if (isset($_POST['email'])) {
@@ -66,11 +66,11 @@ if( isset($_POST['name']) && isset($_POST['email']) && isset($_POST['comment']) 
 
     if (MAIL_HOST != null) {
 
-        $to = 'xacise9183@yektara.com';
+        $to = 'german93ab@gmail.com';
 
     } else {
 
-        $to = "gajoje7449@sdysofa.com";
+        $to = "german93ab@gmail.com";
 
     }
 
@@ -82,7 +82,7 @@ if( isset($_POST['name']) && isset($_POST['email']) && isset($_POST['comment']) 
 
     } else {
 
-        $subject = '[Spendora] Contact Form Message';
+        $subject = '[Monumental] New Message from our Website';
 
     }
 
